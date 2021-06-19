@@ -49,6 +49,25 @@ body {
     color: #FFFFFF;
     padding: 8px 16px;
 }
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.greytxt {
+    color: grey;
+    font-size: 12px;
+}
+
+.lightgreytxt {
+    color: lightgrey;
+}
 /* / COMMON */
 
 
@@ -134,11 +153,6 @@ header {
 
 }
 
-.wrapper-title h1 {
-    font-size: 60px;
-    font-weight: 700;
-}
-
 .wrap-down {
     width: 100%;
 }
@@ -166,8 +180,8 @@ header {
 
 }
 
-.fas fa-arrow-down {
-    size: 50px;
+.fas.fa-arrow-down {
+
 }
 
 .wrapper-img {
@@ -179,14 +193,70 @@ header {
     left: 40%;
 }
 
-#free-try {
-    display: inline;
-    
-}
-
 /* / jumbo section */
 
 /* content section */
+
+.main-cont {
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.main-cont p {
+    margin: 35px 0;
+}
+.head {
+    
+}
+
+#monthly, #annual {
+
+}
+
+.column, .center {
+    height: 1400px;
+    float: left;
+    /* background-color: #ABCFE7; */
+    margin: 20px 0;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+
+.col-title {
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.col-cont-up, .col-cont-down {
+    padding: 20px;
+}
+
+.divbar {
+    padding: 10px 20px;
+}
+
+.column.left, .column.right{
+    width: calc((100% / 3) - 20px);
+    
+}
+
+.center {
+    width: calc((100% / 3)); 
+    margin: 20px;
+}
+
+p > a {
+    color: #0061FF;
+    text-decoration: underline;
+}
+
+
+.fas.fa-check{
+    color: #0061FF;
+}
+
 
 /* / content section */
 
