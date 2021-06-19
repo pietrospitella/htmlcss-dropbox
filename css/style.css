@@ -23,13 +23,15 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
-/* common */
+/* COMMON */
 
 .w-100 {
     width: 100%;
     margin: 0 auto;
+    padding-bottom: 15px;
 }
 
 .clearfix::after {
@@ -45,31 +47,46 @@ body {
 .bluebtn{
     background-color: #0061FF;
     color: #FFFFFF;
+    padding: 8px 16px;
 }
-/* / common */
+/* / COMMON */
 
 
-/* header */
+/* HEADER */
 
 header {
     width: 100%;
+    
 }
 
 .top-bar {
     height: 70px;
 }
 
+/* .dropdown {
+    display: none;
+}
+
+.dropdown:hover {
+    
+}
+
+.dropdown-menu a {
+    display: block;
+} */
+
 .left.ul,.right.ul {
-    font-weight: bold;
     font-size: 14px;
 }
 
 .left.ul {
     float: left;
+    width: 40%;
 }
 
 .right.ul {
     float: right;
+    padding-right: 50px;
 }
 
 .ul li{
@@ -94,22 +111,23 @@ header {
 }
 
 #start {
-    padding: 5px 15px;
+    
 }
 
-/* / header  */
+/* / HEADER  */
 
-/* main */
+/* MAIN */
+
+/* / jumbo section */
 
 .jumbotron {
     background-color: #B4D0E7;
-    height: 60vh;
+    padding: 50px;
 }
 
 .wrapper {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
-    position: relative;
 }
 
 .wrapper-title {
@@ -121,28 +139,58 @@ header {
     font-weight: 700;
 }
 
+.wrap-down {
+    width: 100%;
+}
+
+.wrap-sx {
+    float: left;
+}
+
+.wrap-dx {
+    float: right;
+}
+
+.wrapper-descript{
+ width: 100%;
+}
+
 .wrapper-descript p {
-    width: 30%;
-    font-size: 20px;
-
+    width: 35%;
+    margin-bottom: 30px;
 }
+
 .wrapper-descript #cancel {
-    font-size: 10px;
+    font-size: 14px;
+    margin-top: 20px;
 
 }
+
+.fas fa-arrow-down {
+    size: 50px;
+}
+
 .wrapper-img {
-    
 }
 
 .wrapper-img img {
-    float: right;
-    width: 60%;
+    width: 50%;
     position: absolute;
-    bottom: -100px;
-    right: 40px;
+    left: 40%;
 }
 
 #free-try {
     display: inline;
-    padding: 5px 15px;
+    
 }
+
+/* / jumbo section */
+
+/* content section */
+
+/* / content section */
+
+/* / MAIN  */
+
+/* FOOTER  */
+/* / FOOTER  */
