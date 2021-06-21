@@ -21,6 +21,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -67,6 +71,14 @@ h2 {
 
 .lightgreytxt {
     color: lightgrey;
+}
+
+.sx {
+    float: left;
+}
+
+.dx {
+    float: right;
 }
 /* / COMMON */
 
@@ -141,28 +153,22 @@ header {
 
 .jumbotron {
     background-color: #B4D0E7;
-    padding: 50px;
+    padding: 30px;
 }
 
 .wrapper {
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
 }
 
-.wrapper-title {
-
+.wrapper-title h1 {
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 
 .wrap-down {
     width: 100%;
-}
-
-.wrap-sx {
-    float: left;
-}
-
-.wrap-dx {
-    float: right;
 }
 
 .wrapper-descript{
@@ -181,14 +187,14 @@ header {
 }
 
 .fas.fa-arrow-down {
-
+ color: black;
 }
 
 .wrapper-img {
 }
 
 .wrapper-img img {
-    width: 50%;
+    max-width: 50%;
     position: absolute;
     left: 40%;
 }
@@ -205,6 +211,10 @@ header {
 
 .main-cont p {
     margin: 35px 0;
+}
+
+.block {
+    margin-top: 150px;
 }
 .head {
     
@@ -257,6 +267,32 @@ p > a {
     color: #0061FF;
 }
 
+.downbox {
+    border: 1px solid lightgrey;
+    height: 250px;
+    width: 100%;
+}
+
+.col-cont {
+    position: relative;
+    padding: 20px;
+    height: 200px;
+}
+
+.col-cont .sx {
+    width: 70%;
+}
+
+.col-cont .dx {
+    width: auto;
+}
+
+#contact-office {
+    padding: 10px 40px;
+    position: absolute;
+    top: 30px;
+    left: 630px;
+}
 
 /* / content section */
 
