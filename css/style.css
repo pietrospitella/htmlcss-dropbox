@@ -442,6 +442,30 @@ header {
     width: 50%;
 }
 
+/* block 6 */
+
+.faq {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.faq-row  {
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    cursor: pointer;
+}
+
+.faq-quest {
+    width: 100;
+}
+
+.faq-answ {
+    width: 100%;
+    height: auto;
+    display: none;
+    position: relative;
+}
 
 
 /* / content section */
@@ -449,5 +473,40 @@ header {
 /* / MAIN  */
 
 /* FOOTER  */
+footer {
+    margin-top: 50px;
+    background-color: black;
+    padding: 50px;
+}
+
+.lists, .footer-bottom {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.lists ul li a, .lists ul li.list-title { 
+    color: white;
+    list-style: none;
+    padding: 10px;
+
+}
+
+.list-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer-bottom {
+    color: grey;
+}
+
+#last-line {
+    margin: 10px 0;
+    display: block;
+    position: absolute;
+    left: 200px;
+}
+
 
 /* / FOOTER  */
