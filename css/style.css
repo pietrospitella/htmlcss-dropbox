@@ -1,20 +1,3 @@
-/* debug */
-
-.debug.container {
-    border: 1px solid black;
-    background-color: cadetblue;
-}
-
-.debug .left.ul, .debug .right.ul{
-    background-color: coral;
-    height: 70px;
-}
-
-.debug.jumbotron
-
-/* debug */
-
-
 * {
     margin: 0;
     padding: 0;
@@ -160,19 +143,7 @@ header {
 }
 
 
-/* .dropdown {
-    display: none;
-}
-
-.dropdown:hover {
-    
-}
-
-.dropdown-menu a {
-    display: block;
-} */
-
-.left.ul,.right.ul {
+.left.ul, .right.ul {
     font-size: 14px;
 }
 
@@ -264,19 +235,18 @@ header {
 
 /* content section */
 
-.main-cont {
-
-    
-}
 
 .main-cont p {
     margin: 35px 0;
 }
 
+.head h2 {
+    padding-top: 90px;
+}
+
 .column, .center {
     height: 1400px;
     float: left;
-    /* background-color: #ABCFE7; */
     margin: 20px 0;
     border: 1px solid lightgrey;
     box-sizing: border-box;
@@ -356,6 +326,10 @@ header {
     padding: 10px;
 }
 
+#border {
+    border: 1px solid black;
+}
+
 /* block 4 */
 
 .row {
@@ -401,8 +375,8 @@ header {
 
 .col-side .item {
     display: inline-block;
-    width: 14vw;
-    height: 15vw;
+    width: calc(15vw - 4px);
+    height: calc(15vw - 5px);
     line-height: 15vw;
     text-align: center;
     margin-bottom: 5px;
@@ -417,9 +391,10 @@ header {
 
 .col-center {
     width: calc(100% - 60vw);
-    height: 25vw;
+    height: calc(30vw - 4px);
     background-color: #F5F5F5;
     padding: 50px;
+    box-sizing: border-box;
 }
 
 .col-center img {
@@ -431,15 +406,25 @@ header {
     height: 20vw;
     color: #61082B;
     padding: 50px;
+    box-sizing: border-box;
 }
 
 .col-bottom-content {
     width: 60%;
     margin: 0 auto;
+    position: relative;
 }
 
 .col-bottom-content h2 {
     width: 50%;
+}
+
+
+#bottom-btn {
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 650px;
 }
 
 /* block 6 */
@@ -456,17 +441,43 @@ header {
     cursor: pointer;
 }
 
+.faq-row {
+    height: 70px;
+}
+
+.faq-row:hover {
+    height: 140px;
+}
+
+.fa-chevron-up {
+    display: none;
+    vertical-align: middle;
+}
+
+.fa-chevron-down {
+    display: block;
+    vertical-align: middle;
+}
+
+.faq-row:hover .fa-chevron-up {
+    display: block;
+}
+
+.faq-row:hover .fa-chevron-down {
+    display: none;
+}
+
+.faq-row:hover .faq-answ {
+    display: block;
+}
+
 .faq-quest {
-    width: 100;
+    display: block;
 }
 
 .faq-answ {
-    width: 100%;
-    height: auto;
     display: none;
-    position: relative;
 }
-
 
 /* / content section */
 
@@ -485,6 +496,11 @@ footer {
     
 }
 
+.lists ul {
+    padding: 0;
+    width: calc(100% / 5);
+}
+
 .lists ul li a, .lists ul li.list-title { 
     color: white;
     list-style: none;
@@ -499,6 +515,7 @@ footer {
 
 .footer-bottom {
     color: grey;
+    padding: 0;
 }
 
 #last-line {
